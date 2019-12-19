@@ -1,0 +1,48 @@
+
+body{
+    color:#E98074;
+    background-color: #2A1B3D;
+}
+#date{
+    color: #A4B3B6;
+}
+nav{
+    padding:1%;
+    color: white;
+    width: 8%;
+    height:98%;
+    background-color: #D83F87;
+    float: right;
+    display: block;
+}
+#content{
+    width: 90%;
+    height:98%;
+    float:left;
+    display: block;
+    position: fixed;
+}
+
+a:link {
+  color: #0D98BA;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0D98BA;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E98074;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #A4B3B6;
+  background-color: transparent;
+  text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+from django.urls import path
+from .views import post_list, post_detail, post_share
+
+
+
+urlpatterns = [
+    path('', post_list, name='post_list'),
+    path('<int:year>/<int:month>/<int:day>/<post>/', post_detail, name='post_detail'),
+    path('<post_id>/share/', post_share, name='post_share')
+]
